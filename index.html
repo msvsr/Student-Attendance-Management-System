@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AMSindex</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body align="center">
+<form align ="center" action="cgi-bin/premain.py" method="post" autocomplete="on">
+  <input type="text" name="username" placeholder="U S E R N A M E" required><br><br>
+  <input type="radio" name="usertype" value="admin" > Admin
+  <input type="radio" name="usertype" value="staff" checked> Staff
+  <input type="radio" name="usertype" value="student"> Student<br>
+  <input type="hidden" name="formname" value="index">
+  <input type="submit" value="NEXT">
+  <input type="reset" value="RESET"><br>
+</form> 
+</body>
+</html>

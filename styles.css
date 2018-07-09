@@ -1,0 +1,68 @@
+input[type=submit],input[type=reset] {
+    background-color: #33E6FF  ;
+    border: none;
+    color: #FF4233;
+    padding: 5px 48px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=submit]:hover,input[type=reset]:hover {
+    background-color: #336BFF;
+    border: none;
+    color: white;
+    padding: 10px 48px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+body{
+font-size:120%;
+}
+input[type=text],input[type=password] {
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	border-bottom:2px solid #3346FF;
+    color: #590707;
+    padding: 5px 48px;
+	text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text]:hover,input[type=password]:hover {
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	border-bottom:2px solid #3346FF;
+    color: #FF0000;
+    padding: 16px 48px;
+	text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size:15px;
+}
+input[type=radio] {
+    height: 20px;
+    width: 30px;
+}
+input[type=radio]:hover {
+    height: 30px;
+    width: 40px;
+}
+form{
+	margin-top:200px;
+	padding:10px 10px 10px 10px;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 1px 71px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: red;
+}
